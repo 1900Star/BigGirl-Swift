@@ -3,23 +3,41 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B4916DFF7274E7277CFED8D8 /* Pods_GankGirl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4206F9AF27ECF4660D839CD7 /* Pods_GankGirl.framework */; };
+		F6D72ECA26C2B42E004CAB70 /* GankBean.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D72EC926C2B42E004CAB70 /* GankBean.swift */; };
+		F6D72ECC26C2C1B1004CAB70 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D72ECB26C2C1B1004CAB70 /* HomeView.swift */; };
+		F6D72ED026C2CBC8004CAB70 /* GirlImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D72ECF26C2CBC8004CAB70 /* GirlImage.swift */; };
 		F6E2F25626C160FB00BD03AC /* GankGirlApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E2F25526C160FB00BD03AC /* GankGirlApp.swift */; };
 		F6E2F25826C160FB00BD03AC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E2F25726C160FB00BD03AC /* ContentView.swift */; };
 		F6E2F25A26C160FC00BD03AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6E2F25926C160FC00BD03AC /* Assets.xcassets */; };
 		F6E2F25D26C160FC00BD03AC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6E2F25C26C160FC00BD03AC /* Preview Assets.xcassets */; };
+		F6E2F26526C1653B00BD03AC /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E2F26426C1653B00BD03AC /* NetworkManager.swift */; };
+		F6E2F26D26C165EF00BD03AC /* NetworkApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E2F26C26C165EF00BD03AC /* NetworkApi.swift */; };
+		F6E2F26F26C1740000BD03AC /* Shows.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E2F26E26C1740000BD03AC /* Shows.swift */; };
+		F6E2F27326C192C100BD03AC /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E2F27226C192C100BD03AC /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4206F9AF27ECF4660D839CD7 /* Pods_GankGirl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GankGirl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9405DBDD5AE5FC46578DE08F /* Pods-GankGirl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GankGirl.release.xcconfig"; path = "Target Support Files/Pods-GankGirl/Pods-GankGirl.release.xcconfig"; sourceTree = "<group>"; };
+		A0791933925C1B1884085F89 /* Pods-GankGirl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GankGirl.debug.xcconfig"; path = "Target Support Files/Pods-GankGirl/Pods-GankGirl.debug.xcconfig"; sourceTree = "<group>"; };
+		F6D72EC926C2B42E004CAB70 /* GankBean.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GankBean.swift; sourceTree = "<group>"; };
+		F6D72ECB26C2C1B1004CAB70 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		F6D72ECF26C2CBC8004CAB70 /* GirlImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GirlImage.swift; sourceTree = "<group>"; };
 		F6E2F25226C160FB00BD03AC /* GankGirl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GankGirl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6E2F25526C160FB00BD03AC /* GankGirlApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GankGirlApp.swift; sourceTree = "<group>"; };
 		F6E2F25726C160FB00BD03AC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F6E2F25926C160FC00BD03AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F6E2F25C26C160FC00BD03AC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F6E2F25E26C160FC00BD03AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6E2F26426C1653B00BD03AC /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		F6E2F26C26C165EF00BD03AC /* NetworkApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkApi.swift; sourceTree = "<group>"; };
+		F6E2F26E26C1740000BD03AC /* Shows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shows.swift; sourceTree = "<group>"; };
+		F6E2F27226C192C100BD03AC /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,17 +45,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4916DFF7274E7277CFED8D8 /* Pods_GankGirl.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AA53CDBFECD7F79602EE7697 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A0791933925C1B1884085F89 /* Pods-GankGirl.debug.xcconfig */,
+				9405DBDD5AE5FC46578DE08F /* Pods-GankGirl.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F29C936C12E99EB1085AF62A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4206F9AF27ECF4660D839CD7 /* Pods_GankGirl.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F6E2F24926C160FB00BD03AC = {
 			isa = PBXGroup;
 			children = (
 				F6E2F25426C160FB00BD03AC /* GankGirl */,
 				F6E2F25326C160FB00BD03AC /* Products */,
+				AA53CDBFECD7F79602EE7697 /* Pods */,
+				F29C936C12E99EB1085AF62A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,8 +90,15 @@
 		F6E2F25426C160FB00BD03AC /* GankGirl */ = {
 			isa = PBXGroup;
 			children = (
+				F6E2F26C26C165EF00BD03AC /* NetworkApi.swift */,
+				F6E2F27226C192C100BD03AC /* ViewModel.swift */,
+				F6D72EC926C2B42E004CAB70 /* GankBean.swift */,
+				F6E2F26426C1653B00BD03AC /* NetworkManager.swift */,
+				F6E2F26E26C1740000BD03AC /* Shows.swift */,
 				F6E2F25526C160FB00BD03AC /* GankGirlApp.swift */,
 				F6E2F25726C160FB00BD03AC /* ContentView.swift */,
+				F6D72ECB26C2C1B1004CAB70 /* HomeView.swift */,
+				F6D72ECF26C2CBC8004CAB70 /* GirlImage.swift */,
 				F6E2F25926C160FC00BD03AC /* Assets.xcassets */,
 				F6E2F25E26C160FC00BD03AC /* Info.plist */,
 				F6E2F25B26C160FC00BD03AC /* Preview Content */,
@@ -76,9 +121,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F6E2F26126C160FC00BD03AC /* Build configuration list for PBXNativeTarget "GankGirl" */;
 			buildPhases = (
+				02E6C8DF560E19361FF5D67F /* [CP] Check Pods Manifest.lock */,
 				F6E2F24E26C160FB00BD03AC /* Sources */,
 				F6E2F24F26C160FB00BD03AC /* Frameworks */,
 				F6E2F25026C160FB00BD03AC /* Resources */,
+				E6B2E573AB0CF73C62C49B89 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,12 +180,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		02E6C8DF560E19361FF5D67F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GankGirl-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6B2E573AB0CF73C62C49B89 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GankGirl/Pods-GankGirl-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GankGirl/Pods-GankGirl-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GankGirl/Pods-GankGirl-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F6E2F24E26C160FB00BD03AC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6D72ECC26C2C1B1004CAB70 /* HomeView.swift in Sources */,
+				F6E2F27326C192C100BD03AC /* ViewModel.swift in Sources */,
+				F6D72ED026C2CBC8004CAB70 /* GirlImage.swift in Sources */,
+				F6E2F26F26C1740000BD03AC /* Shows.swift in Sources */,
+				F6D72ECA26C2B42E004CAB70 /* GankBean.swift in Sources */,
+				F6E2F26526C1653B00BD03AC /* NetworkManager.swift in Sources */,
 				F6E2F25826C160FB00BD03AC /* ContentView.swift in Sources */,
+				F6E2F26D26C165EF00BD03AC /* NetworkApi.swift in Sources */,
 				F6E2F25626C160FB00BD03AC /* GankGirlApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,6 +360,7 @@
 		};
 		F6E2F26226C160FC00BD03AC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0791933925C1B1884085F89 /* Pods-GankGirl.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -285,6 +382,7 @@
 		};
 		F6E2F26326C160FC00BD03AC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9405DBDD5AE5FC46578DE08F /* Pods-GankGirl.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
